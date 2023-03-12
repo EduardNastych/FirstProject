@@ -1,5 +1,5 @@
 //HashMap
-package Map;
+package Collection.Map;
 
 import java.util.HashMap;
 

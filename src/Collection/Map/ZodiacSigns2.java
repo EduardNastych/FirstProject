@@ -1,7 +1,6 @@
 //TreeMap
-package Map;
+package Collection.Map;
 
-import java.util.Map;
 import java.util.TreeMap;
 
 public class ZodiacSigns2 {

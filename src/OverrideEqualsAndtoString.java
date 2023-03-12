@@ -6,6 +6,7 @@ public class OverrideEqualsAndtoString {
         System.out.println(c1 == c2);
         System.out.println(c1.equals(c2));
         System.out.println(c1.toString());
+        System.out.println(c1.hashCode());
     }
 }
 
@@ -17,6 +18,9 @@ class Car {
         this.color = color;
         this.engine = engine;
     }
+    public String toString(){
+        return color + ", " + engine;
+    }
 
     public boolean equals(Object obj) {
         if (obj instanceof Car) {
@@ -26,9 +30,8 @@ class Car {
             return false;
         }
     }
-
-    public String toString(){
-        return color + ", " + engine;
+    public int hashCode(){
+        return 2*color.hashCode() + 3/engine.hashCode();
     }
 }
 

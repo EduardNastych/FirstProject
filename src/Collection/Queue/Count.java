@@ -1,5 +1,5 @@
 //Deque
-package Queue;
+package Collection.Queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

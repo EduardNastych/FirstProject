@@ -1,5 +1,5 @@
-//Queue
-package Queue;
+//Collection.Queue
+package Collection.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

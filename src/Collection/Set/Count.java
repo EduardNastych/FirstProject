@@ -1,5 +1,5 @@
 //TreeSet
-package Set;
+package Collection.Set;
 
 import java.util.TreeSet;
 
